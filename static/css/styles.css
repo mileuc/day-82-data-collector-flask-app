@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #E48F93;
+    color: #F2D4D7;
+    overflow: auto;
+    text-align: center;
+}
+
+.container h1{
+    font-family: "Kristen ITC", sans-serif;
+    font-size: 5rem;
+    margin: 12.5% auto 0.25rem;
+    /* transition: width 4s, height 4s, transform 4s; */
+}
+
+/* .container h1:hover{
+transform: rotate(360deg)
+} */
+
+.container h3{
+    font-family: "Bahnschrift", sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.container form{
+}
+
+.email {
+    width: 21.25rem;
+    height: 1.875rem;
+    padding: 5px;
+}
+
+.height{
+    width: 200px;
+    height: 1.875rem;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.container button{
+  background-color: white;
+  color: black; /*font color*/
+  border: 2px solid #f44336;
+  padding: 4px 8px;
+  transition-duration: 0.4s;
+}
+
+.container button:hover {
+  background-color: #f44336;
+  color: white; /*font color*/
+}
+
+.message{
+    font-family: "Bahnschrift";
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.container p{
+    font-family: "Bahnschrift";
+    margin: 15% auto 0.25rem;
+    font-size: 60px;
+}
