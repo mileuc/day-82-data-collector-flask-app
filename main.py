@@ -8,7 +8,7 @@ import os
 load_dotenv("./.env")
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///heights.db"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "sqlite:///heights.db")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 
